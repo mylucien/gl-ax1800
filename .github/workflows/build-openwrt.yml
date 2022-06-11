@@ -31,7 +31,7 @@ env:
   UPLOAD_COWTRANSFER: true
   UPLOAD_WETRANSFER: true
   UPLOAD_RELEASE: true
-  TZ: Asia/Tokyo
+  TZ: Asia/shanghai
 
 jobs:
   build:

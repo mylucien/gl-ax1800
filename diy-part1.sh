@@ -25,3 +25,4 @@ echo 'src-git freifunk https://github.com/freifunk/openwrt-packages.git;openwrt-
 # other-plugins
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/n2n_v2 package/lean/n2n_v2
 svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-n2n_v2 extra/luci/applications/luci-app-n2n_v2
+./scripts/feeds install -a

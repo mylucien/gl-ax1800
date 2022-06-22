@@ -14,15 +14,20 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git helloworld https://github.com/fw876/helloworld' >> feeds.conf.default
+#echo 'src-git helloworld https://github.com/fw876/helloworld' >> feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >> feeds.conf.default
+echo 'src-git packages https://github.com/openwrt/packages.git;lede-17.01' > feeds.conf.default
+echo 'src-git packages https://github.com/openwrt/luci.git;lede-17.01' >> feeds.conf.default
+echo 'src-git routing https://github.com/openwrt/routing.git;lede-17.01' >> feeds.conf.default
+echo 'src-git telephony https://github.com/openwrt/telephony.git;lede-17.01' >> feeds.conf.default
+
 
 # other-plugins
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/n2n_v2 package/lean/n2n_v2
-svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-n2n_v2 extra/luci/applications/luci-app-n2n_v2
-svn co https://github.com/coolsnowwolf/packages/trunk/net/vlmcsd feeds/packages/net/vlmcsd
-svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-vlmcsd extra/luci/applications/luci-app-vlmcsd
-svn co https://github.com/Lienol/openwrt-packages/branches/19.07/net/bonding feeds/packages/net/bonding
-svn co https://github.com/coolsnowwolf/luci/trunk/protocols/luci-proto-bonding extra/luci/protocols/luci-proto-bonding
-./scripts/feeds update -a
-./scripts/feeds install -a
+#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/n2n_v2 package/lean/n2n_v2
+#svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-n2n_v2 extra/luci/applications/luci-app-n2n_v2
+#svn co https://github.com/coolsnowwolf/packages/trunk/net/vlmcsd feeds/packages/net/vlmcsd
+#svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-vlmcsd extra/luci/applications/luci-app-vlmcsd
+#svn co https://github.com/Lienol/openwrt-packages/branches/19.07/net/bonding feeds/packages/net/bonding
+#svn co https://github.com/coolsnowwolf/luci/trunk/protocols/luci-proto-bonding extra/luci/protocols/luci-proto-bonding
+#./scripts/feeds update -a
+#./scripts/feeds install -a

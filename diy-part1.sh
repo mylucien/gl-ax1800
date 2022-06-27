@@ -16,10 +16,10 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >> feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >> feeds.conf.default
-echo 'src-git packages https://github.com/openwrt/packages.git;lede-17.01' > feeds.conf.default
-echo 'src-git packages https://github.com/openwrt/luci.git;lede-17.01' >> feeds.conf.default
-echo 'src-git routing https://github.com/openwrt/routing.git;lede-17.01' >> feeds.conf.default
-echo 'src-git telephony https://github.com/openwrt/telephony.git;lede-17.01' >> feeds.conf.default
+echo 'src-git packages https://git.lede-project.org/feed/packages.git^cd5c448758f30868770b9ebf8b656c1a4211a240' > feeds.conf.default
+echo 'src-git luci https://git.lede-project.org/project/luci.git^d3f0685d63c1291359dc5dd089c82fa1e150e0c6' >> feeds.conf.default
+echo 'src-git routing https://git.lede-project.org/feed/routing.git^d11075cd40a88602bf4ba2b275f72100ddcb4767' >> feeds.conf.default
+echo 'src-git telephony https://git.lede-project.org/feed/telephony.git^ac6415e61f147a6892fd2785337aec93ddc68fa9' >> feeds.conf.default
 
 
 # other-plugins

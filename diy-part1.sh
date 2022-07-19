@@ -25,5 +25,10 @@ svn co https://github.com/coolsnowwolf/packages/trunk/net/vlmcsd feeds/packages/
 svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-vlmcsd extra/luci/applications/luci-app-vlmcsd
 svn co https://github.com/Lienol/openwrt-packages/branches/19.07/net/bonding feeds/packages/net/bonding
 svn co https://github.com/coolsnowwolf/luci/trunk/protocols/luci-proto-bonding extra/luci/protocols/luci-proto-bonding
+svn co https://github.com/coolsnowwolf/packages/trunk/multimedia/UnblockNeteaseMusic-Go feeds/packages/multimedia/UnblockNeteaseMusic-Go
+svn co https://github.com/coolsnowwolf/packages/trunk/multimedia/UnblockNeteaseMusic feeds/packages/multimedia/UnblockNeteaseMusic
+svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-unblockmusic extra/luci/applications/luci-app-unblockmusic
+svn co https://github.com/coolsnowwolf/packages/trunk/multimedia/aliyundrive-webdav feeds/packages/multimedia/aliyundrive-webdav
+svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-aliyundrive-webdav extra/luci/applications/luci-app-aliyundrive-webdav
 ./scripts/feeds update -a
 ./scripts/feeds install -a

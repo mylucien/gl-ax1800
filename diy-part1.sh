@@ -21,8 +21,8 @@ echo 'src-git small https://github.com/kenzok8/small' >> feeds.conf.default
 
 
 # other-plugins
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/n2n_v2 package/lean/n2n_v2
-svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-n2n_v2 extra/luci/applications/luci-app-n2n_v2
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/n2n package/lean/n2n
+svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-n2n extra/luci/applications/luci-app-n2n
 svn co https://github.com/Lienol/openwrt-packages/branches/19.07/net/bonding feeds/packages/net/bonding
 svn co https://github.com/coolsnowwolf/luci/trunk/protocols/luci-proto-bonding extra/luci/protocols/luci-proto-bonding
 ./scripts/feeds update -a

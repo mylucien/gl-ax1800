@@ -16,15 +16,15 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >> feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >> feeds.conf.default
-echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >> feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small' >> feeds.conf.default
+#echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >> feeds.conf.default
+#echo 'src-git small https://github.com/kenzok8/small' >> feeds.conf.default
 
 
 # other-plugins
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/n2n package/lean/n2n
-svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-n2n extra/luci/applications/luci-app-n2n
-svn co https://github.com/Lienol/openwrt-packages/branches/19.07/net/bonding feeds/packages/net/bonding
-svn co https://github.com/coolsnowwolf/luci/trunk/protocols/luci-proto-bonding extra/luci/protocols/luci-proto-bonding
-svn co https://github.com/Lienol/openwrt-packages/branches/19.07/utils/parted feeds/packages/utils/parted
-./scripts/feeds update -a
-./scripts/feeds install -a
+#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/n2n package/lean/n2n
+#svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-n2n extra/luci/applications/luci-app-n2n
+#svn co https://github.com/Lienol/openwrt-packages/branches/19.07/net/bonding feeds/packages/net/bonding
+#svn co https://github.com/coolsnowwolf/luci/trunk/protocols/luci-proto-bonding extra/luci/protocols/luci-proto-bonding
+#svn co https://github.com/Lienol/openwrt-packages/branches/19.07/utils/parted feeds/packages/utils/parted
+#./scripts/feeds update -a
+#./scripts/feeds install -a

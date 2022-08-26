@@ -22,7 +22,7 @@ on:
 env:
   #REPO_URL: https://github.com/leinalin/openwrt-gl-ax1800
   REPO_URL: https://github.com/mylucien/openwrt-ax1800
-  REPO_BRANCH: master
+  REPO_BRANCH: stable
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh

@@ -21,7 +21,7 @@ on:
 
 env:
   #REPO_URL: https://github.com/leinalin/openwrt-gl-ax1800
-  REPO_URL: https://github.com/zheshifandian/openwrt-ax1800
+  REPO_URL: https://github.com/mylucien/openwrt-ax1800
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
